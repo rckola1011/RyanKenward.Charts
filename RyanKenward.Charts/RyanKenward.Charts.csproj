@@ -45,6 +45,7 @@
     <Content Include="Global.asax" />
     <Content Include="Views\SimpleChart.html" />
     <Content Include="Scripts\SimpleChart.js" />
+    <Content Include="Styles\SimpleChart.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -54,6 +55,7 @@
   <ItemGroup>
     <Folder Include="Views\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Styles\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
